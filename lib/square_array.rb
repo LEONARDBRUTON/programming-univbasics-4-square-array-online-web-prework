@@ -3,7 +3,7 @@ def square_array(numbers)
   count = 0
  # numbers.map{ |i| i * i} new_numbers
  while count < numbers.length do
-    puts numbers[i = (a * a)]
+    puts numbers[i = (i * i)]
     new_numbers<< numbers.each
    count += 1
   end
