@@ -1,11 +1,10 @@
-def square_array(numbers)
+def square_array(array)
  new_numbers = [1, 2, 3]
   count = 0
 
- while count < numbers.length do
-   #numbers.map{ |i| i * i} new_numbers
-    puts numbers[i = (i * i)]
-    new_numbers<< numbers.each
+ while count < array.length do
+    new_array<< array[count]**2
    count += 1
   end
+ new_array 
 end
